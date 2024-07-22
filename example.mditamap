@@ -1,0 +1,9 @@
+---
+$schema: urn:oasis:names:tc:dita:xsd:map.xsd
+---
+
+# Map title
+
+- [Generating a key pair for cluster node SSH access](test.md)
+  - [Creating the Kubernetes manifest and Ignition config files](test2.md)
+- [](kitchen-sink.md) <!-- Can also just leave out the title -->
