@@ -125,7 +125,7 @@ An inline ![Alt](test.jpg).
 
     Warning content.
 
-## Links
+# Links
 
 * [Test](test.md)
 
