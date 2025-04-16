@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="install">
+    <title>How to install the software</title>
+    <shortdesc>Here's how to install the software on your computer.</shortdesc>
+    <taskbody>
+        <context>This is a made-up example about how to install a software program on your computer.(The <markupname>context</markupname> should provide a brief background about the task, why they should do the task, and what to expect from the task. This section should not replace a DITA <b>Concept</b> file.)
+        <p>The software has an easy to use <i>installation wizard</i> that does most of the hard work for you. What you'll need:</p>
+        <ul id="ul_d24_vll_kyb">
+            <li><b>The installer.</b> Download the software installer from our website at <xref href="https://www.example.com/" format="html" scope="external">www.example.com</xref></li>
+            <li><b>Your license key.</b> The license key is unique to your username.</li>
+            </ul>
+            <p>When you are ready, follow these steps to install the software on a <tm tmtype="reg">Microsoft Windows</tm> computer:</p>
+            <note id="note_mdz_44l_kyb">Installing the software takes about ten minutes on most computers.</note>
+        </context>
+        <steps>
+            <step>
+                <cmd>Start the installer by double-clicking the <cmdname>Setup</cmdname> program icon.</cmd>
+            </step>
+            <step>
+                <cmd>Select the destination folder for the software.</cmd>
+                <info>By default, the destination folder will be
+                    <filepath>C:\Program Files (x86)\The Software</filepath></info>
+            </step>
+            <step>
+                <cmd>Click the <keyword>Ok</keyword> button.</cmd>
+            </step>
+        </steps>
+        <postreq id="postreq_jr3_s4l_kyb">You will be prompted to enter your license key when you run the software for the first time.</postreq>
+    </taskbody>
+</task>
