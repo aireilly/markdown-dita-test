@@ -16,7 +16,7 @@ resourceid:
 workflow: review
 ---
 
-# Generating a key pair for cluster node SSH access
+# Generating a key pair for cluster node SSH access  {#this-is-the-id .this-is-an-output-class}
 
 During an OpenShift Container Platform installation, you can provide an SSH public key to the installation program. The key is passed to the Red Hat Enterprise Linux CoreOS (RHCOS) nodes through their Ignition config files and is used to authenticate SSH access to the nodes. The key is added to the `~/.ssh/authorized_keys` list for the `core` user on each node, which enables password-less authentication.
 
