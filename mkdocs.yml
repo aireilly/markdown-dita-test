@@ -1,0 +1,88 @@
+site_name: Markdown DITA demo docs site
+site_url: https://aireilly.github.io/markdown-dita-test/
+site_description: Example documentation showing a markdown source and a DITA build output
+repo_url: https://github.com/aireilly/markdown-dita-test
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: README.md
+  - About tool calling: topics/concept-tool-calling.md
+  - Validating Red Hat AI Inference Server:
+      - Overview: topics/concept-validating-metrics.md
+      - Prerequisites for metrics validation: topics/concept-metrics-prereqs.md
+      - Validating Red Hat AI Inference Server metrics: topics/task-validate-metrics.md
+  - Key vLLM server arguments: topics/reference-server-arguments.md
+  - Kitchen sink: topics/kitchen-sink.md
+
+theme:
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  language: en
+  # logo: assets/example.png
+  # favicon: assets/favicon.ico
+  features:
+    - content.action.edit
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.path
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
