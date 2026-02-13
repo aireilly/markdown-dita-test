@@ -1,4 +1,5 @@
 ---
+$schema: urn:oasis:names:tc:dita:xsd:concept.xsd
 author:
   - Author One
   - Author Two
@@ -101,11 +102,11 @@ Term
 
 ## Images
 
-An inline ![Alt](test.jpg).
+An inline ![Alt](images/test.jpg).
 
-![Alt](test.jpg)
+![Alt](images/test.jpg)
 
-![Alt](test.jpg "Title")
+![Alt](images/test.jpg "Title")
 
 ## Admonitions
 
@@ -125,16 +126,16 @@ An inline ![Alt](test.jpg).
 
     Warning content.
 
-# Links
+## Links
 
-* [Test](test.md)
+* [Test](concept-tool-calling.md)
 
 * [External](http://www.example.com/test.html)
 
 * See this [in page reference in the current document](#definition-lists).
 Where no ID exists, the link ID is rendered in kebab-case.
 
-* See this local xref: [Link destination](test2.md#link-destination).
+* See this local xref: [Link destination](concept-tool-calling.md#more-details).
 
 ## Tables
 
