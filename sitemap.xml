@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://aireilly.github.io/upstream-md-dita/topics/concept-tool-calling/</loc>
+         <lastmod>2026-02-13</lastmod>
+    </url>
+    <url>
+         <loc>https://aireilly.github.io/upstream-md-dita/topics/kitchen-sink/</loc>
+         <lastmod>2026-02-13</lastmod>
+    </url>
+    <url>
+         <loc>https://aireilly.github.io/upstream-md-dita/topics/reference-server-arguments/</loc>
+         <lastmod>2026-02-13</lastmod>
+    </url>
+    <url>
+         <loc>https://aireilly.github.io/upstream-md-dita/topics/task-validate-metrics/</loc>
+         <lastmod>2026-02-13</lastmod>
+    </url>
+</urlset>
