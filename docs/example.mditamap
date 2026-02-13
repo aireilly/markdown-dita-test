@@ -1,0 +1,12 @@
+---
+$schema: urn:oasis:names:tc:dita:xsd:map.xsd
+---
+
+# MDITA example
+
+Example MDITA map with concept, task, and reference topics.
+
+- [About tool calling](topics/concept-tool-calling.md)
+- [Validating Red Hat AI Inference Server benefits using key metrics](topics/task-validate-metrics.md)
+- [Key vLLM server arguments](topics/reference-server-arguments.md)
+- [Kitchen sink](topics/kitchen-sink.md)
