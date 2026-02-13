@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
-  <topicref href="test.md" format="markdown">
-    <topicref href="test2.md" format="markdown"/>
-  </topicref>
-  <topicref href="kitchen-sink.md" format="markdown"/>
-  <topicref href="example-task.dita" format="dita"/>
-</map>
