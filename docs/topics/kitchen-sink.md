@@ -114,10 +114,6 @@ An inline ![Alt](images/test.jpg).
 
     Note content.
 
-!!! info
-
-    Info content.
-
 !!! caution
 
     Caution content.

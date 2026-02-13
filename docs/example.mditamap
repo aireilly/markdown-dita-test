@@ -4,8 +4,6 @@ $schema: urn:oasis:names:tc:dita:xsd:map.xsd
 
 # MDITA example
 
-Example MDITA map with concept, task, and reference topics.
-
 - [About tool calling](topics/concept-tool-calling.md)
 - [Validating Red Hat AI Inference Server](topics/concept-validating-metrics.md)
     - [Prerequisites for metrics validation](topics/concept-metrics-prereqs.md)
